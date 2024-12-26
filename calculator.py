@@ -10,7 +10,7 @@ class Calculator:
 
     def add_car(self, car):
         year_cost = car.year_cost(self.mileage)
-        price_per_year = car.price / car.years
+        price_per_year = car.price / self.years
         left_price = self.get_left_price(car) / self.years
         self.cars[car] = year_cost + price_per_year - left_price
 
