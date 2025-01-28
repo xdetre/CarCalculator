@@ -1,5 +1,5 @@
 def get_gas_price():
-    return 5
+    return 8
 
 def get_power_price():
-    return 1.2
+    return 1.1
