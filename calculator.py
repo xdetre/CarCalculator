@@ -52,5 +52,7 @@ class ElectricCar(Car):
 class Motorcycle(Car):
     pass
 
-class Bicycle(Car):
+class Bicycle(Car, Calculator):
     pass
+
+#some comments
